@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  background-color: cadetblue;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.todo-container {
+  margin: auto;
+  margin-top: 50px;
+  width: 350px;
+  text-align: center;
+}
+.todo-container > h1 {
+  background-color: transparent;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0 2px 4px;
+}
+.input-section {
+  background-color: transparent;
+  border-radius: 15px;
+  padding: 15px;
+}
+.input-section input {
+  border-radius: 5px;
+  border: 1px solid silver;
+  width: 100%;
+  height: 40px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px;
+}
+input::placeholder {
+  color: silver;
+}
+
+
+
+ button {
+  background-color: black;
+  border-radius: 3px;
+  border: 1px solid snow;
+  width: 80px;
+  height: 20px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px;
+  margin-bottom: 5px;
+  color: white;
+}
+
+
+.todo-item >.icons > i {
+  margin: 3px;
+  cursor: pointer;
+}
+.todo-item {
+  border: 1px solid rgb(22, 3, 3);
+  margin-top: 1rem;
+  display: flex;
+  justify-content:space-between;
+  flex-direction: column;
+  background-color:white;
+  box-shadow:0 2px 4px ;
+  border-radius: 5px;
+}
+
+
+.todo-item .checkbox{
+ width: 20px;
+ height: 20px;
+ cursor: pointer;
+ border: none;
+}
+
+span{
+  font-size: larger;
+  font-weight: bold;
+}
+
+.completed{
+  text-emphasis: none;
+  text-decoration-line: line-through;
+  color: dimgray;
+}
